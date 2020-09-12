@@ -1,7 +1,43 @@
 dsui:
   users:
+    #user@zanini.com
+    526fcbfc-6b3c-414d-853d-83d15dbc7629:
+      customer: ZANINI
+      licences:
+        - Ebfx
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+    #user@sptd.com
+    6ca089b9-1ec3-43da-949c-6e0ba8e12843:
+      customer: SPTD
+      licences:
+        - Ebfx
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+    #user@npro2.com
+    82271df0-b28f-41b4-a1ff-b97d63473984:
+      customer: NPRO2
+      licences:
+        - Ebfx
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+    #user@company.com
+    9dbbdc4a-0527-4a34-85df-edb3d736e26f:
+      customer: COMPANY
+      licences:
+        - Ebfx
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
     #user@npro.com
-    ea7ecbba-a9a8-4801-9bc1-d13e04b909ef:
+    bbb46ef6-b079-4c45-8868-4a71ad933b96:
       customer: NPRO
       licences:
         - Ebfx
@@ -9,9 +45,3 @@ dsui:
       roles:
         - ROLE_ADMIN
         - ROLE_USER
-    ea9ecbba-a9a8-4801-9bc1-d13e04b909ef:
-      customer: SPTD
-      licences:
-        - EssSuite
-      roles:
-        - ROLE_ADMIN
