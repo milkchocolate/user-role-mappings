@@ -1,10 +1,13 @@
+spring:
+  profiles:
+    include: npro
 dsui:
   users:
     #user@zanini.com
     526fcbfc-6b3c-414d-853d-83d15dbc7629:
       customer: ZANINI
       licences:
-        - Ebfx
+        - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
@@ -13,7 +16,7 @@ dsui:
     6ca089b9-1ec3-43da-949c-6e0ba8e12843:
       customer: SPTD
       licences:
-        - Ebfx
+        - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
@@ -22,7 +25,7 @@ dsui:
     82271df0-b28f-41b4-a1ff-b97d63473984:
       customer: NPRO2
       licences:
-        - Ebfx
+        - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
@@ -31,16 +34,36 @@ dsui:
     9dbbdc4a-0527-4a34-85df-edb3d736e26f:
       customer: COMPANY
       licences:
-        - Ebfx
+        - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
         - ROLE_USER
-    #user@npro.com
-    bbb46ef6-b079-4c45-8868-4a71ad933b96:
-      customer: NPRO
+        - ROLE_FINANCEADMIN
+        - ROLE_SUPERADMIN
+    #ebfx
+    5s83elqeb08ubrlnpbn6j85b0l:
+      customer: EAT_INTERNAL_APP
       licences:
-        - Ebfx
+        - Ebin
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+    #ebinfx
+    14p6fhojcbc5n5mr9bvhlqfs41:
+      customer: EAT_INTERNAL_APP
+      licences:
+        - Ebin
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+    #ebdx
+    6je9m11fb4vousaijc7qvr7unj:
+      customer: EAT_INTERNAL_APP
+      licences:
+        - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
