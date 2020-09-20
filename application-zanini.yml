@@ -1,11 +1,12 @@
-dsui:
+eatdsui:
   users:
-    #user@npro.com
-    bbb46ef6-b079-4c45-8868-4a71ad933b96:
-      customer: NPRO
+    #user@zanini.com
+    526fcbfc-6b3c-414d-853d-83d15dbc7629:
+      customer: ZANINI
       licences:
         - Ebin
         - Ebdx
       roles:
         - ROLE_ADMIN
         - ROLE_USER
+ 

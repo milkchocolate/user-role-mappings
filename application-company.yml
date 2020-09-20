@@ -1,0 +1,13 @@
+eatdsui:
+  users:
+    #user@company.com
+    9dbbdc4a-0527-4a34-85df-edb3d736e26f:
+      customer: COMPANY
+      licences:
+        - Ebin
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER
+        - ROLE_FINANCEADMIN
+        - ROLE_SUPERADMIN

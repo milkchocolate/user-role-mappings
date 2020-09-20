@@ -1,0 +1,11 @@
+eatdsui:
+  users:
+    #user@sptd.com
+    6ca089b9-1ec3-43da-949c-6e0ba8e12843:
+      customer: SPTD
+      licences:
+        - Ebin
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER

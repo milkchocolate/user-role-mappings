@@ -1,0 +1,11 @@
+eatdsui:
+  users:
+    #user@npro.com
+    bbb46ef6-b079-4c45-8868-4a71ad933b96:
+      customer: NPRO
+      licences:
+        - Ebin
+        - Ebdx
+      roles:
+        - ROLE_ADMIN
+        - ROLE_USER

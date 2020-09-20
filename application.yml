@@ -1,43 +1,8 @@
+spring:
+  profiles:
+    include: npro,npro2,zanini,sptd,company
 eatdsui:
   users:
-    #user@zanini.com
-    526fcbfc-6b3c-414d-853d-83d15dbc7629:
-      customer: ZANINI
-      licences:
-        - Ebin
-        - Ebdx
-      roles:
-        - ROLE_ADMIN
-        - ROLE_USER
-    #user@sptd.com
-    6ca089b9-1ec3-43da-949c-6e0ba8e12843:
-      customer: SPTD
-      licences:
-        - Ebin
-        - Ebdx
-      roles:
-        - ROLE_ADMIN
-        - ROLE_USER
-    #user@npro2.com
-    82271df0-b28f-41b4-a1ff-b97d63473984:
-      customer: NPRO2
-      licences:
-        - Ebin
-        - Ebdx
-      roles:
-        - ROLE_ADMIN
-        - ROLE_USER
-    #user@company.com
-    9dbbdc4a-0527-4a34-85df-edb3d736e26f:
-      customer: COMPANY
-      licences:
-        - Ebin
-        - Ebdx
-      roles:
-        - ROLE_ADMIN
-        - ROLE_USER
-        - ROLE_FINANCEADMIN
-        - ROLE_SUPERADMIN
     #ebfx
     5s83elqeb08ubrlnpbn6j85b0l:
       customer: EAT_INTERNAL_APP
