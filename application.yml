@@ -1,6 +1,4 @@
-spring:
-  profiles:
-    include: npro,npro2,zanini,sptd,company
+
 eatdsui:
   users:
     #ebfx
