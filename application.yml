@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: eatnpro,npro2,zanini,sptd,eatcompany
+    include: eatnpro,eatnpro2,zanini,sptd,eatcompany
 eatdsui:
   users:
     #ebfx
