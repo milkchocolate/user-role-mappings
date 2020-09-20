@@ -1,7 +1,4 @@
-spring:
-  profiles:
-    include: npro
-dsui:
+eatdsui:
   users:
     #user@zanini.com
     526fcbfc-6b3c-414d-853d-83d15dbc7629:
